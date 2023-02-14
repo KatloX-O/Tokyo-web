@@ -1,0 +1,72 @@
+ body{
+    background-color: #f4f4f4;
+    font-family: Georgia, sans-serif;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+     width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+p{
+   color: #fff;
+   margin: 10px;
+   font-weight: bold;
+}
+
+.grid{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-gap:10px;
+   grid-auto-rows: minmax(200px, auto);
+  }
+
+.box{
+   
+   background-size: cover;
+   background-repeat: no-repeat;
+   border: 1px #ccc solid;
+ 
+
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: flex-end;
+   text-align: center;
+   transition: all 0.5s ease-in;
+}
+
+.box:hover{
+   opacity: 0.7;
+   transform: scale(0.98);
+}
+
+.box1{
+background-image: url(./img/UenoPark_33.jpg);
+}
+
+.box2{
+   background-image: url(./img/Flea\ MarketPintest.jpg);
+}
+
+
+.box3{
+   background-image: url(./img/yoyogi-park-wanwan-carnival-Tokyoweekeder.png);
+}
+
+
+.box4{
+   background-image: url(./img/comiket-110444.jpg);
+}
+
+
+.box5{
+   background-image: url(./img/otaku-summit-preview.jpg);
+
+}
+
+.box6{
+   background-image: url(./img/maximalfocus-0n4jhVGS4zs-unsplash.jpg);
+
+}
